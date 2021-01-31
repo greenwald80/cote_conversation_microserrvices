@@ -1,0 +1,17 @@
+{
+  "name": "cote",
+  "version": "1.0.0",
+  "description": "Microservices made easy with Node.js and cote",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "cote": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"node arbitration-service\" \"node arbitration-updater\" \"node conversion-client\" \"node conversion-service\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
